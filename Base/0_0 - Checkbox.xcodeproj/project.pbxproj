@@ -7,21 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D039B4BA1BF4D7950024005F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D039B4B91BF4D7950024005F /* AppDelegate.swift */; };
-		D039B4BC1BF4D7950024005F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D039B4BB1BF4D7950024005F /* ViewController.swift */; };
-		D039B4C11BF4D7950024005F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D039B4C01BF4D7950024005F /* Assets.xcassets */; };
-		D08820D41C14F82300B7F8C8 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08820D31C14F82300B7F8C8 /* Globals.swift */; };
-		D0F1C1921C14024400F606A3 /* UICheckbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F1C1911C14024400F606A3 /* UICheckbox.swift */; };
+		D04403BA200AB1C5008E142F /* Images in Resources */ = {isa = PBXBuildFile; fileRef = D04403B6200AB1C5008E142F /* Images */; };
+		D04403BB200AB1C5008E142F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D04403B7200AB1C5008E142F /* Assets.xcassets */; };
+		D04403BC200AB1C5008E142F /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D04403B8200AB1C5008E142F /* Base.lproj */; };
+		D04403BD200AB1C5008E142F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D04403B9200AB1C5008E142F /* Info.plist */; };
+		D04403BF200AB1CE008E142F /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04403BE200AB1CE008E142F /* Globals.swift */; };
+		D04403C3200AB1D6008E142F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04403C0200AB1D6008E142F /* ViewController.swift */; };
+		D04403C4200AB1D6008E142F /* UICheckbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04403C1200AB1D6008E142F /* UICheckbox.swift */; };
+		D04403C5200AB1D6008E142F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04403C2200AB1D6008E142F /* AppDelegate.swift */; };
+		D04403C9200AB1F0008E142F /* Empty.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D04403C6200AB1EF008E142F /* Empty.storyboard */; };
+		D04403CA200AB1F0008E142F /* NewClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04403C7200AB1EF008E142F /* NewClass.swift */; };
+		D04403CB200AB1F0008E142F /* Stdcomments.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04403C8200AB1EF008E142F /* Stdcomments.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D039B4B61BF4D7950024005F /* 0_0 - Checkbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0_0 - Checkbox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D039B4B91BF4D7950024005F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D039B4BB1BF4D7950024005F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D039B4C01BF4D7950024005F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D039B4C51BF4D7950024005F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D08820D31C14F82300B7F8C8 /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
-		D0F1C1911C14024400F606A3 /* UICheckbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICheckbox.swift; sourceTree = "<group>"; };
+		D04403B6200AB1C5008E142F /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		D04403B7200AB1C5008E142F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D04403B8200AB1C5008E142F /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		D04403B9200AB1C5008E142F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D04403BE200AB1CE008E142F /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Globals.swift; path = ../Data/Globals.swift; sourceTree = "<group>"; };
+		D04403C0200AB1D6008E142F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		D04403C1200AB1D6008E142F /* UICheckbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UICheckbox.swift; path = ../UICheckbox.swift; sourceTree = "<group>"; };
+		D04403C2200AB1D6008E142F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		D04403C6200AB1EF008E142F /* Empty.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Empty.storyboard; path = ../../../../../Ref/iOS/Base/Empty.storyboard; sourceTree = "<group>"; };
+		D04403C7200AB1EF008E142F /* NewClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewClass.swift; path = ../../../../../Ref/iOS/Base/NewClass.swift; sourceTree = "<group>"; };
+		D04403C8200AB1EF008E142F /* Stdcomments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Stdcomments.swift; path = ../../../../../Ref/iOS/Base/Stdcomments.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,8 +49,11 @@
 		D039B4AD1BF4D7950024005F = {
 			isa = PBXGroup;
 			children = (
-				D039B4B81BF4D7950024005F /* 0_0 - Checkbox */,
-				D039B4B71BF4D7950024005F /* Products */,
+				D04403B4200AB1B5008E142F /* Base */,
+				D04403B5200AB1B9008E142F /* Data */,
+				D04403C2200AB1D6008E142F /* AppDelegate.swift */,
+				D04403C1200AB1D6008E142F /* UICheckbox.swift */,
+				D04403C0200AB1D6008E142F /* ViewController.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,17 +65,27 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D039B4B81BF4D7950024005F /* 0_0 - Checkbox */ = {
+		D04403B4200AB1B5008E142F /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				D08820D31C14F82300B7F8C8 /* Globals.swift */,
-				D039B4B91BF4D7950024005F /* AppDelegate.swift */,
-				D039B4BB1BF4D7950024005F /* ViewController.swift */,
-				D0F1C1911C14024400F606A3 /* UICheckbox.swift */,
-				D039B4C01BF4D7950024005F /* Assets.xcassets */,
-				D039B4C51BF4D7950024005F /* Info.plist */,
+				D04403B7200AB1C5008E142F /* Assets.xcassets */,
+				D04403B8200AB1C5008E142F /* Base.lproj */,
+				D04403B6200AB1C5008E142F /* Images */,
+				D04403B9200AB1C5008E142F /* Info.plist */,
+				D04403C6200AB1EF008E142F /* Empty.storyboard */,
+				D04403C7200AB1EF008E142F /* NewClass.swift */,
+				D04403C8200AB1EF008E142F /* Stdcomments.swift */,
+				D039B4B71BF4D7950024005F /* Products */,
 			);
-			path = "0_0 - Checkbox";
+			name = Base;
+			sourceTree = "<group>";
+		};
+		D04403B5200AB1B9008E142F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D04403BE200AB1CE008E142F /* Globals.swift */,
+			);
+			name = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,7 +121,7 @@
 					D039B4B51BF4D7950024005F = {
 						CreatedOnToolsVersion = 7.1;
 						DevelopmentTeam = HRCQBX7PVQ;
-						LastSwiftMigration = 0910;
+						LastSwiftMigration = 0920;
 					};
 				};
 			};
@@ -124,7 +148,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D039B4C11BF4D7950024005F /* Assets.xcassets in Resources */,
+				D04403BD200AB1C5008E142F /* Info.plist in Resources */,
+				D04403BB200AB1C5008E142F /* Assets.xcassets in Resources */,
+				D04403BC200AB1C5008E142F /* Base.lproj in Resources */,
+				D04403BA200AB1C5008E142F /* Images in Resources */,
+				D04403C9200AB1F0008E142F /* Empty.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,10 +163,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D08820D41C14F82300B7F8C8 /* Globals.swift in Sources */,
-				D0F1C1921C14024400F606A3 /* UICheckbox.swift in Sources */,
-				D039B4BC1BF4D7950024005F /* ViewController.swift in Sources */,
-				D039B4BA1BF4D7950024005F /* AppDelegate.swift in Sources */,
+				D04403C5200AB1D6008E142F /* AppDelegate.swift in Sources */,
+				D04403C3200AB1D6008E142F /* ViewController.swift in Sources */,
+				D04403C4200AB1D6008E142F /* UICheckbox.swift in Sources */,
+				D04403CA200AB1F0008E142F /* NewClass.swift in Sources */,
+				D04403BF200AB1CE008E142F /* Globals.swift in Sources */,
+				D04403CB200AB1F0008E142F /* Stdcomments.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,11 +277,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = HRCQBX7PVQ;
-				INFOPLIST_FILE = "0_0 - Checkbox/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jaostech.--0---Empty-Template--Swift-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -260,8 +293,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = HRCQBX7PVQ;
-				INFOPLIST_FILE = "0_0 - Checkbox/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jaostech.--0---Empty-Template--Swift-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
