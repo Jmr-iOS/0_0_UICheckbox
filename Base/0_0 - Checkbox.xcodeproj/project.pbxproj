@@ -3,14 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		D04403BA200AB1C5008E142F /* Images in Resources */ = {isa = PBXBuildFile; fileRef = D04403B6200AB1C5008E142F /* Images */; };
 		D04403BB200AB1C5008E142F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D04403B7200AB1C5008E142F /* Assets.xcassets */; };
 		D04403BC200AB1C5008E142F /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D04403B8200AB1C5008E142F /* Base.lproj */; };
-		D04403BD200AB1C5008E142F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D04403B9200AB1C5008E142F /* Info.plist */; };
 		D04403BF200AB1CE008E142F /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04403BE200AB1CE008E142F /* Globals.swift */; };
 		D04403C3200AB1D6008E142F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04403C0200AB1D6008E142F /* ViewController.swift */; };
 		D04403C4200AB1D6008E142F /* UICheckbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04403C1200AB1D6008E142F /* UICheckbox.swift */; };
@@ -115,7 +114,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0710;
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = Jaostech;
 				TargetAttributes = {
 					D039B4B51BF4D7950024005F = {
@@ -126,7 +125,7 @@
 				};
 			};
 			buildConfigurationList = D039B4B11BF4D7950024005F /* Build configuration list for PBXProject "0_0 - Checkbox" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -148,7 +147,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D04403BD200AB1C5008E142F /* Info.plist in Resources */,
 				D04403BB200AB1C5008E142F /* Assets.xcassets in Resources */,
 				D04403BC200AB1C5008E142F /* Base.lproj in Resources */,
 				D04403BA200AB1C5008E142F /* Images in Resources */,
@@ -219,7 +217,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -265,7 +263,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -280,9 +278,9 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = HRCQBX7PVQ;
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jaostech.--0---Empty-Template--Swift-";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaostech.0-0-Checkbox";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -296,9 +294,9 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = HRCQBX7PVQ;
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jaostech.--0---Empty-Template--Swift-";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaostech.0-0-Checkbox";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
